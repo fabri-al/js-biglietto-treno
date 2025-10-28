@@ -1,7 +1,6 @@
 
 let KmDaPercorrere = prompt("Quanti KM devi percorrere?"); //creo una variabile e gli assegno un prompt
 
-
 //creo un ciclo che controlla che i dati inseriti non siano una stringa o uno spazio vuoto 
 // e mi mostri nuovamente il prompt per inserire i dati
 while (isNaN(KmDaPercorrere) || (KmDaPercorrere.trim() == "")) {
@@ -14,9 +13,7 @@ while (isNaN(KmDaPercorrere) || (KmDaPercorrere.trim() == "")) {
 
 
 let etàPasseggero = prompt("Qual è la tua età?"); //creo un'altra variabile a cui assegno un altro prompt, ed altre variabili
-
 let prezzoAlKm = 0.21; //creo una variabile per il prezzo del biglietto al km
-
 let prezzoPerDistanza = KmDaPercorrere * prezzoAlKm; //creo una variabile che calcola il costo del biglietto, moltiplicando
 //la distanza da percorrere x il prezzo al km
 
