@@ -33,7 +33,7 @@ while (isNaN(etàPasseggero) || (etàPasseggero.trim() == "")) {
 
     alert("Devi inserire un numero per l'età"); //creo la finestra di output
 
-    etàPasseggero = prompt("Qual è la tua età?"); //creo la finestra di output
+    etàPasseggero = prompt("Qual è la tua età?"); //l'utente deve immettere la distanza che deve percorrere
 
 }
 
